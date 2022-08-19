@@ -1,0 +1,247 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+ } 
+ 
+ /* index */
+ .cabecera1 {
+     background-color: rgb(191, 191, 193);
+     height: 80px;
+ }
+ .barraNavegacion1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+ .barraNavegacion1 li {
+     margin: 15px;
+     padding: 20px;
+ }
+ a {
+     color: rgb(246, 246, 248);
+     text-decoration: none;
+ }
+ .barraNavegacion1 li:hover a {
+     color: rgb(17, 82, 60);
+ }
+ .main1{
+     background-color: rgb(245, 245, 247);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 500px;
+ }
+ .mensajebienvenida {
+     color: rgb(127, 157, 93);
+     margin-left: 30px;
+     margin-top: 200px;
+ }
+ .piePagina1 {
+     background-color: rgb(191, 191, 193);
+     border-top: 3px solid rgb(142, 137, 137);
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     height: 74px;
+ }
+ .nombre1 {
+     color: rgb(246, 246, 248);
+     margin: 10px;
+ }
+ 
+ /* productos*/
+ .cabecera2 {
+     background-color: rgb(191, 191, 193);
+     height: 70px;
+ }
+ .barraNavegacion2 {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+ .barraNavegacion2 li {
+     margin: 10px;
+     padding: 15px;
+ }
+ a {
+     color: rgb(246, 246, 248);
+ }
+ .barraNavegacion2 li:hover a {
+     color: rgb(17, 82, 60);
+ }
+ .main2 {
+     background-color: rgb(245, 245, 247);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 510px;
+ }
+ .section2 p {
+     color: rgb(127, 157, 93);
+     font-weight: bold;
+     font-size: 30px;
+ }
+ .variedad {
+     color:rgb(127, 157, 93);
+     font-size: 25;
+     margin-left: 15px;
+ }
+ .categorías {
+     margin-left: 10px; 
+     font-size: 25;   
+ }
+ 
+ .piePagina2 {
+     height: 74px;
+     background-color: rgb(191, 191, 193);
+     border-top: 3px solid rgb(142, 137, 137);
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .nombre2 {
+     color: rgb(246, 246, 248);
+     margin: 10px;
+ }
+ 
+ /*compra*/
+ .header3 {
+     background-color: rgb(191, 191, 193);
+     height: 70px;
+ }
+ .barraNavegacion3 {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+ .barraNavegacion3 li {
+     margin: 10px;
+     padding: 15px;
+ }
+ a {
+     color: rgb(246, 246, 248);
+ }
+ .barraNavegacion3 li:hover a {
+     color: rgb(17, 82, 60);
+ }
+ .main3 {
+     background-color: rgb(245, 245, 247);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 510px;
+ }
+ .indicaciones3 {
+     color: rgb(127, 157, 93);
+     margin: 10px;
+     padding: 10px;
+ }
+ .piePagina3 {
+     height: 74px;
+     background-color: rgb(191, 191, 193);
+     border-top: 3px solid rgb(142, 137, 137);
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .nombre3 {
+     color: rgb(246, 246, 248);
+     margin: 10px;
+ }
+ 
+ /*quienes somos*/
+ .header4 {
+     background-color: rgb(191, 191, 193);
+     height: 70px;
+ }
+ .barraNavegacion4 {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+ .barraNavegacion4 li {
+     margin: 10px;
+     padding: 15px;
+ }
+ a {
+     color: rgb(246, 246, 248);
+ }
+ .barraNavegacion4 li:hover a {
+     color: rgb(17, 82, 60);
+ }
+ .main4 {
+     height: 510px;
+     background-color: rgb(245, 245, 247);
+ }
+ .quienessomos {
+     color:rgb(127, 157, 93);
+     margin-left: 5px;
+ }
+ .descripcion4 {
+     color:rgb(127, 157, 93); 
+ }
+ .video {
+     margin-left: 100px;
+     margin-top: 30px;
+ }
+ .piePagina4 {
+     height: 74px;
+     background-color: rgb(191, 191, 193);
+     border-top: 3px solid rgb(142, 137, 137);
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .nombre4 {
+     color: rgb(246, 246, 248);
+     margin: 10px;
+ }
+ 
+ /*contacto*/
+ .header5 {
+     background-color: rgb(191, 191, 193);
+     height: 70px;
+ }
+ .barraNavegacion5 {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+ .barraNavegacion5 li {
+     margin: 10px;
+     padding: 15px;
+ }
+ a {
+     color: rgb(246, 246, 248);
+ }
+ .barraNavegacion5 li:hover a {
+     color: rgb(17, 82, 60);
+ }
+ .main5 {
+     height: 510px;
+     background-color: rgb(245, 245, 247);
+ }
+ .datos {
+     color: rgb(127, 157, 93);
+     font-size: 30px;
+     margin-left: 15px;
+ }
+ .main5 form {
+     color:rgb(19, 20, 18);
+     margin-left: 15px;
+     margin-top: 10px;
+ }
+ .piePagina5 {
+     height: 74px;
+     background-color: rgb(191, 191, 193);
+     border-top: 3px solid rgb(142, 137, 137);
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .nombre5 {
+     color: rgb(246, 246, 248);
+     margin: 10px;
+ }
