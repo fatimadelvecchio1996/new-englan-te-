@@ -4,57 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilo/estilo.css">
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap" rel="stylesheet">
     <title>Documentc</title>
 </head>
-<header class="cabecera2">
-    <nav>
-       <ul class="barraNavegacion2">
-         <li> <a href="../index.html"> Inicio </a> </li>
-         <li> <a href="./productos.html"> Productos </a> </li>
-         <li> <a href="./compra.html"> Compra </a> </li>
-         <li> <a href="./quienessomos.html"> Quienes somos </a> </li>
-         <li> <a href="./contacto.html"> Contacto </a> </li>
-       </ul>
-    </nav>  
-</header>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(191, 191, 193);">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./compra.html">Compra</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./quienessomos.html">Quienes somos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+    </nav>
+</header>
  <main class="main2">
-   <section class="section2">
-        <p> Productos <p>
-   <ul>
-     <li class="variedad"> Puros: 
-        <ul>
-            <li class="categorías"> Té blanco. </li>
-            <li class="categorías"> Té verde. </li>
-            <li class="categorías"> Té negro. </li>
-        </ul>
-     </li>
-     <li class="variedad"> Florales:
-        <ul>
-            <li class="categorías"> Té verde con rosas de Pakistán.</li>
-            <li class="categorías"> Té verde con flores de manzanilla.</li>
-            <li class="categorías"> Té verde con hojas de menta.</li>
-        </ul>
-     </li>
-     <li class="variedad"> Frutales: 
-        <ul>
-            <li class="categorías"> Té negro con frutillas. </li>
-            <li class="categorías"> Té negro con papaya. </li>
-            <li class="categorías"> Té negro con damasco. </li>
-        </ul>
-     </li>
-   </ul>
-  </section>
-  <aside class="aside2">
-   <img class="tiposDeTe" src="../imagenes/bowlste.jpg" alt="distintosTiposDeTe" width="790px" height="510px">
-  </aside>
+    <h3 class="clases">Puros</h3>
+   <div class="variedad">
+     <div class="card" style="width: 15rem;">
+        <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+        <div class="card-body">
+          <h5 class="card-title">Té blanco</h5>
+          <p class="card-text">Cosechado en primavera, el verdadero té blanco o agujas de plata: sólo el brote no abierto y con escasa clorofila.</p>
+          <a href="#" class="btn btn-success">Comprar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+        <div class="card-body">
+          <h5 class="card-title">Té verde</h5>
+          <p class="card-text">Este té se procesa cuidadosamente al vapor antes de enrollar y secar. La hoja así obtiene una estructura muy fina y frágil.</p>
+          <a href="#" class="btn btn-success">Comprar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+        <div class="card-body">
+          <h5 class="card-title">Té negro</h5>
+          <p class="card-text">Muy aromático fascina por su suave y aterciopelado sabor a moscatel en una infusión de color bronce brillante.</p>
+          <a href="#" class="btn btn-success">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="clases">Florales</h3>
+    <div class="variedad">
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Canto de hada</h5>
+              <p class="card-text">Té verde con rosas rojas de Pakistán y jazmines de China.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Amor Intenso</h5>
+              <p class="card-text">Té verde con capullos de rosas amarillas y flores de malva.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Vuelo de dragon</h5>
+              <p class="card-text">Té verde con flores de manzanilla y petalos azules de aciano.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+    </div>
+    <h3 class="clases">Frutales</h3>
+    <div class="variedad">
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Descarada pasión</h5>
+              <p class="card-text">Té negro con frutillas y arandanos.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Tardes en el Nilo</h5>
+              <p class="card-text">Té negro con papaya y maracuya.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+        <div class="card" style="width: 15rem;">
+            <img src="../imagenes/teteraCard.jpg" class="card-img-top" alt="teteraCard">
+            <div class="card-body">
+              <h5 class="card-title">Amanecer en París</h5>
+              <p class="card-text">Té negro con flores de girasol y durazno.</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+    </div>
 </main>
-</body>
-<footer class="piePagina2">
-    <p class="nombre2"> Fatima Del Vecchio, 2022 </p>
+<footer class="piePagina1">
+    <p class="nombre1"> Fatima Del Vecchio, 2022 </p>
+    <img class="logoInsta" src="../imagenes/logoInsta.png" alt="logoInsta"width="35px" height="35px">
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
 </html> 
