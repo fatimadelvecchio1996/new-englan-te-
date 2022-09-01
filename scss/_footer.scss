@@ -1,0 +1,13 @@
+.piePagina1 {
+    background-color: $color-footer;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    .nombre1 {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .logoInsta {
+        margin-top: 5px;
+    }
+}
