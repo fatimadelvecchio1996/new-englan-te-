@@ -1,0 +1,5 @@
+@mixin botones($borderColor, $bgColor ) {
+    padding: 7px;
+    border-bottom: 2px solid $borderColor;
+    background-color: $bgColor;
+}

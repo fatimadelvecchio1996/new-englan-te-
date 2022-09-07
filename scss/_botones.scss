@@ -1,0 +1,14 @@
+.boton {
+    @extend %botonForm;
+    background-color: rgb(142, 137, 137);
+    color: rgb(255, 255, 255);
+}
+
+.btns {
+    @include botones($borderColor: rgb(110, 105, 105),$bgColor: rgb(191, 191, 193));
+}
+
+.comentarios {
+    background-color: rgb(191, 191, 193);
+    border-bottom: 2px solid rgb(110, 105, 105);
+}

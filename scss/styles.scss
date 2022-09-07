@@ -1,44 +1,54 @@
+@import "mixins";
+@import "maps";
 @import "./variables/colores";
 @import "generales";
 @import "footer";
 @import "navbar";
-@import "responsive";
+@import "extends";
+@import "botones";
 
 
- 
+
 /*index*/ 
-.mensajeBienvenida {
+.main1 {
+    .mensajeBienvenida {
     color: rgb(127, 157, 93);
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-}
+    }
+    background-color: map-get($estilos, colorPrimario);
 
+}
 
  
  /* productos*/
 .main2 {
     .clases {
-        color:rgb(127, 157, 93);
+        color: map-get($estilos, colorTexto);
         margin-top: 5px;
         margin-bottom: 5px;
         text-align: center;
         text-decoration: underline;
     }
     .variedad {
-        display: flex;
-        flex-direction: column;
+        display: map-get($estilos, displayFlex);
+        flex-direction: map-get($estilos, flexColumn);
         align-items: center;
-    }    
+    }   
+    background-color: map-get($estilos, colorPrimario); 
 }
 
 
 
  
  /*compra*/
+ .main3 {
+    background-color: map-get($estilos, colorPrimario);
+ }
 .section3 {
     background-color: rgb(142, 137, 137);
-    display: flex;
+    display: map-get($estilos, displayFlex);
     flex-wrap: wrap;
 }
 
@@ -49,8 +59,12 @@
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+    background-color: map-get($estilos, colorPrimario);
     .video {
         width: 100vw;
+    }
+    .quienessomos {
+        color: map-get($estilos, colorTexto); 
     }
 }
 
@@ -58,9 +72,9 @@
  /*contacto*/
 
 .main5 {
-    background-color: rgb(245, 245, 247);
+    background-color: map-get($estilos, colorPrimario);
     .datos {
-        color: rgb(127, 157, 93);
+        color: map-get($estilos, colorTexto);
         font-size: 30px;
         margin-left: 15px;
     }
@@ -70,6 +84,8 @@
         margin-top: 10px;
     }
 }
+
+@import "responsive";
 
 
 

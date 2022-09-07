@@ -1,0 +1,157 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+}
+
+.piePagina1 {
+  background-color: rgb(142, 137, 137);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.piePagina1 .nombre1 {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.piePagina1 .logoInsta {
+  margin-top: 5px;
+}
+
+.nav-link:hover {
+  color: rgb(17, 82, 60);
+}
+
+.boton {
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.boton {
+  background-color: rgb(142, 137, 137);
+  color: rgb(255, 255, 255);
+}
+
+.btns {
+  padding: 7px;
+  border-bottom: 2px solid rgb(110, 105, 105);
+  background-color: rgb(191, 191, 193);
+}
+
+.comentarios {
+  background-color: rgb(191, 191, 193);
+  border-bottom: 2px solid rgb(110, 105, 105);
+}
+
+/*index*/
+.main1 {
+  background-color: rgb(245, 245, 247);
+}
+.main1 .mensajeBienvenida {
+  color: rgb(127, 157, 93);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* productos*/
+.main2 {
+  background-color: rgb(245, 245, 247);
+}
+.main2 .clases {
+  color: rgb(127, 157, 93);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+.main2 .variedad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*compra*/
+.main3 {
+  background-color: rgb(245, 245, 247);
+}
+
+.section3 {
+  background-color: rgb(142, 137, 137);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*quienes somos*/
+.main4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 247);
+}
+.main4 .video {
+  width: 100vw;
+}
+.main4 .quienessomos {
+  color: rgb(127, 157, 93);
+}
+
+/*contacto*/
+.main5 {
+  background-color: rgb(245, 245, 247);
+}
+.main5 .datos {
+  color: rgb(127, 157, 93);
+  font-size: 30px;
+  margin-left: 15px;
+}
+.main5 form {
+  color: rgb(19, 20, 18);
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  /*Index*/
+  .main1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .main1 .mensajeBienvenida {
+    width: 30vw;
+  }
+  .main1 .img-fluid {
+    width: 70vw;
+  }
+  /*Productos*/
+  .main2 .variedad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*index*/
+  .main1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .main1 .mensajeBienvenida {
+    margin-top: 220px;
+    width: 30vw;
+  }
+  .main1 .img-fluid {
+    width: 70vw;
+  }
+  /*productos*/
+  .main2 .variedad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
