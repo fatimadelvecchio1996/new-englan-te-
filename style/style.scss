@@ -1,16 +1,8 @@
-/*index*/ 
-.navbar {
-    border-bottom:   2px solid rgb(120, 144, 92);
-}
-.d-flex {
-    background-color: rgb(255, 255, 255);
-    border-top: 2px solid rgb(120, 144, 92);
-    .nombre {
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 5px;
-    }
-}
+
+@import "_navbar.scss";
+@import "_footer.scss";
+
+
 
 /* compra */
 .main1{
@@ -25,6 +17,9 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
+        .contacto {
+            text-align: center;
+        }
     }  
 }
 
@@ -61,7 +56,14 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+@import "_responsive.scss";
+
+
+
+
 
 
 

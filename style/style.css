@@ -1,4 +1,3 @@
-/*index*/
 .navbar {
   border-bottom: 2px solid rgb(120, 144, 92);
 }
@@ -27,6 +26,9 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
+}
+.main1 .div1 .contacto {
+  text-align: center;
 }
 
 /* contacto */
@@ -64,4 +66,62 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  /* compra */
+  .main1 .div1 {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    align-items: center;
+  }
+  .main1 .div1 .img-fluid {
+    width: 50vw;
+  }
+  /* productos */
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* quienes somos */
+  .div3 {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    align-items: center;
+  }
+  .div3 .img-fluid {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*compra*/
+  .main1 .div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .main1 .div1 .textos {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /*productos*/
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* quienes somos */
+  .div3 {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
